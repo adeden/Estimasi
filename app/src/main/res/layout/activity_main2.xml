@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/bg2">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/hitung"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/blthitung1"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="38dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/notaris"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="220dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bltnotaris1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/properti"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bltbiaya"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="210dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/raywhite"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:src="@drawable/bltraywhite1"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="70dp"
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/laporan"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bltlaporan1"
+            android:layout_marginTop="220dp"
+            android:layout_marginLeft="210dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:id="@+id/sosio"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bltsosialisasi1"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="210dp"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

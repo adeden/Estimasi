@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HitungActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/NamaCust"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:layout_marginBottom="5dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Nama Customer" />
+    <EditText
+        android:id="@+id/StsSer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Status Sertifikat"
+        android:layout_below="@+id/NamaCust"/>
+
+    <EditText
+        android:id="@+id/LuasTanah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="5dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Luas Tanah"
+        android:layout_below="@+id/StsSer"/>
+
+    <EditText
+        android:id="@+id/nilaiNjop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Njop"
+        android:layout_below="@+id/LuasTanah"/>
+    <EditText
+        android:id="@+id/TanggalTbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Tanggal Terbit"
+        android:layout_below="@+id/nilaiNjop"/>
+    <EditText
+        android:id="@+id/StsImb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Status IMB"
+        android:layout_below="@+id/TanggalTbt"/>
+    <EditText
+        android:id="@+id/Harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:inputType="text"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Status IMB"
+        android:layout_below="@+id/StsImb"/>
+
+
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:text="simpan"
+        android:textColor="#fff"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+</RelativeLayout>
