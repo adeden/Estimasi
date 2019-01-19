@@ -20,7 +20,6 @@
         <activity android:name=".Login2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
             </intent-filter>
         </activity>
         <activity android:name=".RegisterActivity" />
@@ -28,15 +27,20 @@
             android:name=".SplashScreenActivity"
             android:noHistory="true"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".HitungActivity" />
         <activity android:name=".LaporanActivity" />
-        <activity android:name=".SosialisasiActivity"></activity>
+        <activity android:name=".SosialisasiActivity" />
+        <activity android:name=".KonfirmasiActivity" />
+        <activity android:name=".DetailLaporanActivity" />
+        <activity android:name=".SosioActivity" />
+        <activity android:name=".TentangActivity"></activity>
     </application>
 
 </manifest>

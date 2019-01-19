@@ -98,5 +98,20 @@
             android:layout_marginTop="320dp"
             android:layout_marginLeft="210dp"/>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about"
+            android:text="TENTANG APLIKASI"
+            android:layout_marginLeft="53dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="450dp"
+            android:background="#FFFFCC00"/>
+
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

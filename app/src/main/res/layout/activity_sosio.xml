@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SosioActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Transaksi :"
+                android:id="@+id/tglTrx1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama customer :"
+                android:id="@+id/nmCust"
+                android:layout_below="@+id/tglTrx1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Sertifikat :"
+                android:id="@+id/stsSer1"
+                android:layout_below="@+id/nmCust"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Luas Tanah :"
+                android:id="@+id/lsTnh1"
+                android:layout_below="@+id/stsSer1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NJOP :"
+                android:id="@+id/njop1"
+                android:layout_below="@+id/lsTnh1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terbit IMB :"
+                android:id="@+id/tglTbt1"
+                android:layout_below="@+id/njop1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status IMB :"
+                android:id="@+id/stsImb1"
+                android:layout_below="@+id/tglTbt1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Harga :"
+                android:id="@+id/harga1"
+                android:layout_below="@+id/stsImb1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pajak Penjual :"
+                android:id="@+id/pjkPenjual1"
+                android:layout_below="@+id/harga1"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pajak Pembeli :"
+                android:id="@+id/pjkPembeli"
+                android:layout_below="@+id/pjkPenjual1"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="185sp"
+        android:layout_height="wrap_content"
+        android:text="Ubah"
+        android:layout_marginLeft="180dp"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_width="185sp"
+        android:layout_height="wrap_content"
+        android:text="Batal"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
